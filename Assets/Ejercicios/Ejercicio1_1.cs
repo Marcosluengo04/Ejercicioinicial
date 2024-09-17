@@ -19,13 +19,14 @@ public class Ejercicio1_1 : MonoBehaviour
     void Start()
     {
         Debug.Log("Hola Mundo");
-        Print("Este es el primer videojuego de Marcos Luengo Oritz" );
-        Debug.log("Estoy aprendiendo C#");
+        Debug.Log("Este es el primer videojuego de Marcos Luengo Oritz" );
+        Debug.Log("Estoy aprendiendo C#");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Ha pasado un frame");
+        //Cuando ponemos un mensaje en la funcion Update se repite por cada frame en la consola
     }
 }
