@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using UnityEngine;
 
 public class Ejercicio1_2 : MonoBehaviour
@@ -35,6 +36,32 @@ public class Ejercicio1_2 : MonoBehaviour
          Debug.Log("Resultado suma" vidas + exp);
 
          Debug.Log( "Resultado resta" exp - vidas);
+
+         Debug.Log( "Resultado multiplicacion" vidas * exp);
+         Debug.Log("Resultado division" vidas / exp);
+         Debug.Log("%" vidas % exp );
+         Debug.Log("Doble de vidas"vidas * 2 );
+         Debug.Log("Dobles de exp"exp * 2);
+
+
+
+
+        int vidas1;
+        int valorsuma = 77;
+        int valorresta = 3;
+        int valormultiplicador = 4;
+
+        Debug.Log(vidas1 + valorsuma);
+        Debug.Log(vidas1 - valorresta);
+        Debug.Log(vidas1 * valormultiplicador);
+
+
+
+
+
+
+
+
 
 
     }
